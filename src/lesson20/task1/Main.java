@@ -2,10 +2,7 @@ package lesson20.task1;
 
 import java.util.TreeSet;
 
-/*private int employeeId;
-private String name;
-private String department;
-private int salary;*/
+
 
 public class Main {
 
