@@ -54,7 +54,7 @@ public class Main {
 	}
 
 	public static void sortId(List<Employee> employee) {
-		Comparator<Object> comparatorId = Comparator.comparing(obj -> ((Employee) obj).getId());
+		Comparator<Object> comparatorId = Comparator.comparing(obj -> ((Employee) obj).getEmployeeId());
 
 		Collections.sort(employee, comparatorId);
 		print(employee);
