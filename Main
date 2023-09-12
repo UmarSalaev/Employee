@@ -33,12 +33,7 @@ public class Main {
 
 		System.out.println("\n После сортировки по Id------------------------------------------");
 
-		Comparator<Object> comparatorId = Comparator.comparing(obj -> ((Employee) obj).getDepartment());
-
-		Collections.sort(employee, comparatorId);
-
-		print(employee);
-
+		sortId(employee);
 	}
 
 	public static void sortName(List<Employee> employee) {
