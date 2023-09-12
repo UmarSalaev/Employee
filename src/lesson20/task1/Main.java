@@ -1,4 +1,4 @@
-package lesson20_task1;
+package lesson20.task1;
 
 import java.util.TreeSet;
 
